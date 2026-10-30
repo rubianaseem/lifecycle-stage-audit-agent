@@ -1,0 +1,9 @@
+record_id,email,lifecycle_stage,lead_status,hubspot_score,deal_stages,owner,create_date,date_entered_lead,date_entered_mql,date_entered_sql,date_entered_opportunity,date_entered_customer,last_activity_date,original_source
+101,priya@northwind.io,marketingqualifiedlead,,82,,,2026-09-02,2026-09-02,2026-10-25,,,,2026-10-25,Organic search
+102,tom@brightpath.com,Lead ,,91,,m.shah,2026-07-28,2026-08-01,,,,,2026-10-12,Paid social
+103,ana@quill.co,1234567,,12,closedlost,k.lee,2026-03-10,2026-03-10,2026-04-02,2026-04-09,,,2026-05-01,Event
+104,jo@lumen.ai,Customer,,40,closedlost,a.rossi,2024-11-05,,,,,2024-11-05,2026-02-14,Offline sources
+105,sam@acme.com,lead,,55,appointmentscheduled,m.shah,2026-09-20,2026-09-20,,,,,2026-10-28,Event
+106,li@acme.com,Trial User,,74,,,2026-10-01,2026-10-01,,,,,2026-10-29,Direct traffic
+107,PRIYA@Northwind.io ,Subscriber,,8,,,2026-06-14,,,,,,2026-06-14,Organic search
+108,ben@orbit.dev,customer,,77,closedwon;appointmentscheduled,j.ortiz,2026-02-01,2026-02-01,2026-07-15,2026-03-01,2026-03-20,2026-06-01,2026-10-20,Referrals

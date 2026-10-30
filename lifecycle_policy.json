@@ -1,0 +1,50 @@
+{
+  "native_order": [
+    "subscriber",
+    "lead",
+    "marketingqualifiedlead",
+    "salesqualifiedlead",
+    "opportunity",
+    "customer",
+    "evangelist"
+  ],
+  "unordered_native": ["other"],
+  "aliases": {
+    "mql": "marketingqualifiedlead",
+    "marketing qualified lead": "marketingqualifiedlead",
+    "sql": "salesqualifiedlead",
+    "sales qualified lead": "salesqualifiedlead",
+    "opp": "opportunity"
+  },
+  "custom_options": {
+    "1234567": {
+      "label": "Disqualified",
+      "action": "move_to_lead_status",
+      "lead_status": "UNQUALIFIED",
+      "stage": "lead"
+    },
+    "disqualified": {
+      "label": "Disqualified",
+      "action": "move_to_lead_status",
+      "lead_status": "UNQUALIFIED",
+      "stage": "lead"
+    },
+    "unqualified": {
+      "label": "Unqualified",
+      "action": "move_to_lead_status",
+      "lead_status": "UNQUALIFIED",
+      "stage": "lead"
+    },
+    "trial user": {
+      "label": "Trial User",
+      "action": "review",
+      "note": "Product state, not a funnel stage. Move it to a product_status property first, then set the stage from score and deal evidence."
+    }
+  },
+  "mql_score_threshold": 70,
+  "stuck_lead_days": 30,
+  "mql_owner_sla_days": 2,
+  "closed_won_stages": ["closedwon"],
+  "closed_lost_stages": ["closedlost"],
+  "writer_overlap_hours": 24
+}

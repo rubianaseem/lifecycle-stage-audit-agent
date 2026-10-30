@@ -1,0 +1,17 @@
+{
+  "results": [
+    {
+      "id": "108",
+      "properties": {"lifecyclestage": "customer"},
+      "propertiesWithHistory": {
+        "lifecyclestage": [
+          {"value": "customer", "timestamp": "2026-07-20T14:10:00.000Z", "sourceType": "CRM_UI", "sourceId": "userId:1001", "updatedByUserId": 1001},
+          {"value": "marketingqualifiedlead", "timestamp": "2026-07-15T03:00:05.000Z", "sourceType": "AUTOMATION_PLATFORM", "sourceId": "enrollmentId:55", "sourceLabel": "MQL - score over 70 (v2)"},
+          {"value": "", "timestamp": "2026-07-15T03:00:00.000Z", "sourceType": "AUTOMATION_PLATFORM", "sourceId": "enrollmentId:55", "sourceLabel": "MQL - score over 70 (v2)"},
+          {"value": "customer", "timestamp": "2026-06-01T09:00:00.000Z", "sourceType": "DEAL_AUTOMATION", "sourceLabel": "Deal closed won"}
+        ]
+      }
+    }
+  ],
+  "paging": {}
+}

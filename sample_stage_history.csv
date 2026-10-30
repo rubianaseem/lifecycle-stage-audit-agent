@@ -1,0 +1,14 @@
+record_id,timestamp,old_value,new_value,source_type,source_name
+102,2026-08-01T10:04:00,,lead,FORM,Contact us form
+101,2026-09-02T08:00:00,,lead,FORM,Newsletter signup
+101,2026-10-25T09:00:00,lead,marketingqualifiedlead,WORKFLOW,MQL - demo request
+101,2026-10-25T09:02:00,marketingqualifiedlead,marketingqualifiedlead,WORKFLOW,MQL - webinar attendee
+103,2026-04-09T15:30:00,marketingqualifiedlead,salesqualifiedlead,CRM_UI,k.lee
+103,2026-05-01T11:00:00,salesqualifiedlead,1234567,CRM_UI,k.lee
+104,2024-11-05T12:00:00,,customer,IMPORT,legacy_customers_2024.csv
+105,2026-09-20T16:45:00,subscriber,lead,IMPORT,tradeshow_sept.csv
+106,2026-10-01T07:12:00,lead,Trial User,INTEGRATION,Product signup sync
+108,2026-06-01T09:00:00,opportunity,customer,DEAL_AUTOMATION,Deal closed won
+108,2026-07-15T03:00:00,customer,,WORKFLOW,MQL - score over 70 (v2)
+108,2026-07-15T03:00:05,,marketingqualifiedlead,WORKFLOW,MQL - score over 70 (v2)
+108,2026-07-20T14:10:00,marketingqualifiedlead,customer,CRM_UI,j.ortiz
